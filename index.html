@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17151d" />
+    <meta
+      name="description"
+      content="Автосервис «Аметист» в селе Фонтаны. Диагностика и ремонт автомобилей, актуальные цены от и запись по телефону."
+    />
+    <title>Аметист — автосервис в Фонтанах</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Аметист — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 42 42" fill="none">
+            <path d="M21 3.5 37 12.7v16.6L21 38.5 5 29.3V12.7L21 3.5Z" />
+            <path d="m13 25 8-14 8 14M16.1 20h9.8M18 25h6" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>АМЕТИСТ</strong>
+          <small>АВТОСЕРВИС</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#about">О сервисе</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="header-phone" href="tel:+79786811311">+7 978 681-13-11</a>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Село Фонтаны · Симферопольский район</p>
+          <h1>Ваш автомобиль<br />в <span>надёжных руках.</span></h1>
+          <p class="hero-description">
+            Диагностика и ремонт — от планового обслуживания до сложных работ с двигателем и трансмиссией.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:+79786811311">
+              Записаться на ремонт
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="text-link" href="#prices">Посмотреть цены <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-facts">
+            <div class="hero-fact">
+              <span class="fact-icon" aria-hidden="true">01</span>
+              <span>Открытие<br />в 09:00</span>
+            </div>
+            <div class="hero-fact">
+              <span class="fact-icon" aria-hidden="true">02</span>
+              <span>В выходные<br />по записи</span>
+            </div>
+            <div class="hero-fact">
+              <span class="fact-icon" aria-hidden="true">03</span>
+              <span>Оплата картой,<br />наличными, переводом и QR</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img
+              src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+              alt="Иллюстративное фото автомобиля в ремонтной мастерской"
+              fetchpriority="high"
+            />
+            <div class="photo-shade"></div>
+            <div class="photo-label">
+              <span class="photo-label-dot"></span>
+              Точная диагностика — уверенное решение
+            </div>
+            <div class="hero-stamp" aria-hidden="true">
+              <span>АМЕТИСТ</span>
+              <strong>АВТО</strong>
+              <small>СЕРВИС</small>
+            </div>
+          </div>
+          <p class="image-disclaimer">Иллюстративное фото, не снимок мастерской</p>
+          <div class="hero-index"><span>01</span> / 03</div>
+        </div>
+        <div class="hero-orbit" aria-hidden="true"></div>
+      </section>
+
+      <section class="service-strip" aria-label="Основные работы">
+        <div class="strip-track">
+          <span>ДИАГНОСТИКА</span><i></i><span>ДВИГАТЕЛЬ</span><i></i><span>ПОДВЕСКА</span><i></i>
+          <span>ТРАНСМИССИЯ</span><i></i><span>ТОРМОЗА</span><i></i><span>РУЛЕВОЕ УПРАВЛЕНИЕ</span>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Чем поможем</p>
+            <h2>Сервис, который<br />понимает <em>автомобили.</em></h2>
+          </div>
+          <p class="section-intro">
+            Обслуживаем автомобили разных марок. Начинаем с диагностики, чтобы определить объём работ и согласовать стоимость.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M8 28h32l-3-10H11L8 28Z" /><path d="M12 28v8m24-8v8M17 18l3-6h8l3 6M14 36h20M16 28h.01M32 28h.01" /></svg>
+            </div>
+            <h3>Диагностика</h3>
+            <p>Компьютерная, подвески, АКПП и тормозной системы.</p>
+            <a href="#prices">Смотреть стоимость <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M9 17h21l5 5h4v11h-7m-13 0h-4V17Zm9 0v-5h7v8M7 25h6m22 3h7v5h-8" /><circle cx="13" cy="33" r="4" /><circle cx="28" cy="33" r="4" /></svg>
+            </div>
+            <h3>Двигатель</h3>
+            <p>Ремонт бензиновых и дизельных двигателей, замена ГРМ.</p>
+            <a href="#prices">Смотреть стоимость <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="m9 31 5-15h20l5 15M8 31h32v6H8zM14 37v3m20-3v3M16 23h16M19 16v-4h10v4" /><circle cx="15" cy="31" r="2" /><circle cx="33" cy="31" r="2" /></svg>
+            </div>
+            <h3>Подвеска и рулевое</h3>
+            <p>Диагностика и ремонт подвески, ремонт рулевой рейки.</p>
+            <a href="#prices">Смотреть стоимость <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <span class="service-number">04</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="15" /><circle cx="24" cy="24" r="7" /><path d="M24 9v8m0 14v8M9 24h8m14 0h8M14 14l6 6m8 8 6 6m0-20-6 6m-8 8-6 6" /></svg>
+            </div>
+            <h3>Трансмиссия и тормоза</h3>
+            <p>Диагностика и ремонт АКПП, замена сцепления и работы с тормозами.</p>
+            <a href="#prices">Смотреть стоимость <span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="price-section" id="prices">
+        <div class="price-inner">
+          <div class="price-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span> Понятная стоимость</p>
+              <h2>Цены на<br /><em>популярные работы.</em></h2>
+            </div>
+            <p>Все цены указаны «от». Окончательная стоимость зависит от автомобиля и определяется после диагностики.</p>
+          </div>
+
+          <div class="price-list">
+            <div class="price-row"><span class="price-category">Диагностика</span><span class="price-name">Компьютерная диагностика</span><span class="price-value">от 500 ₽</span></div>
+            <div class="price-row"><span class="price-category">Диагностика</span><span class="price-name">Диагностика подвески</span><span class="price-value">от 500 ₽</span></div>
+            <div class="price-row"><span class="price-category">Двигатель</span><span class="price-name">Замена ГРМ</span><span class="price-value">от 2 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Двигатель</span><span class="price-name">Ремонт бензинового двигателя</span><span class="price-value">от 20 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Двигатель</span><span class="price-name">Ремонт дизельного двигателя</span><span class="price-value">от 30 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Подвеска</span><span class="price-name">Ремонт подвески</span><span class="price-value">от 2 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Рулевое</span><span class="price-name">Ремонт рулевой рейки</span><span class="price-value">от 5 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Трансмиссия</span><span class="price-name">Диагностика АКПП</span><span class="price-value">от 1 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Трансмиссия</span><span class="price-name">Ремонт АКПП</span><span class="price-value">от 10 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Трансмиссия</span><span class="price-name">Замена сцепления</span><span class="price-value">от 3 000 ₽</span></div>
+            <div class="price-row"><span class="price-category">Тормоза</span><span class="price-name">Диагностика тормозной системы</span><span class="price-value">от 500 ₽</span></div>
+          </div>
+          <div class="price-note">
+            <span class="note-mark">i</span>
+            <p>Стоимость замены масла в двигателе уточняйте по телефону — цена зависит от выбранного масла и автомобиля.</p>
+            <a href="tel:+79786811311">Уточнить цену <span>↗</span></a>
+          </div>
+          <a class="button button-light" href="https://wa.me/79786811311" target="_blank" rel="noreferrer">
+            Уточнить стоимость ремонта <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="price-decoration" aria-hidden="true">A</div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="about-top">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Автосервис «Аметист»</p>
+            <h2>Техническая забота<br /><em>без лишнего шума.</em></h2>
+          </div>
+          <p class="about-copy">Помогаем разобраться в состоянии автомобиля и подобрать нужные работы. Сначала — диагностика и согласование, затем — ремонт.</p>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-card photo-card-large">
+            <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Иллюстративное фото обслуживания автомобиля" loading="lazy" />
+            <figcaption><span>Работы с автомобилем</span><small>Иллюстрация</small></figcaption>
+          </figure>
+          <figure class="photo-card">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&amp;fit=crop&amp;w=750&amp;q=85" alt="Иллюстративное фото автомобиля" loading="lazy" />
+            <figcaption><span>Автомобиль</span><small>Иллюстрация</small></figcaption>
+          </figure>
+          <figure class="photo-card">
+            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&amp;fit=crop&amp;w=750&amp;q=85" alt="Иллюстративное фото диагностики автомобиля" loading="lazy" />
+            <figcaption><span>Диагностика и ремонт</span><small>Иллюстрация</small></figcaption>
+          </figure>
+        </div>
+        <p class="gallery-disclaimer">Изображения в этом демо — тематические иллюстрации, а не фотографии сервиса «Аметист».</p>
+      </section>
+
+      <section class="contact-section" id="contacts">
+        <div class="contact-inner">
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Будем на связи</p>
+            <h2>Нужен ремонт?<br /><em>Давайте обсудим.</em></h2>
+            <p>Позвоните или напишите — подскажем по записи и стоимости работ для вашего автомобиля.</p>
+            <a class="contact-phone" href="tel:+79786811311">+7 978 681-13-11 <span>↗</span></a>
+            <div class="contact-buttons">
+              <a class="button button-primary" href="https://wa.me/79786811311" target="_blank" rel="noreferrer">Написать в WhatsApp <span>↗</span></a>
+              <a class="button button-outline" href="https://t.me/+79786811311" target="_blank" rel="noreferrer">Telegram <span>↗</span></a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="map-preview" aria-hidden="true">
+              <div class="map-lines">
+                <span class="road road-one"></span><span class="road road-two"></span><span class="road road-three"></span>
+                <span class="map-pin"><i></i></span>
+                <span class="map-label">Фонтаны</span>
+              </div>
+            </div>
+            <div class="address-block">
+              <span class="address-label">Мы находимся</span>
+              <strong>с. Фонтаны, Симферопольский район</strong>
+              <span>Республика Крым, 297570</span>
+              <a class="route-link" href="https://2gis.ru/simferopol/search/Фонтаны%2C%20Симферопольский%20район" target="_blank" rel="noreferrer">Построить маршрут в 2ГИС <span>↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top" aria-label="Аметист — наверх">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 42 42" fill="none"><path d="M21 3.5 37 12.7v16.6L21 38.5 5 29.3V12.7L21 3.5Z" /><path d="m13 25 8-14 8 14M16.1 20h9.8M18 25h6" /></svg>
+        </span>
+        <span class="brand-copy"><strong>АМЕТИСТ</strong><small>АВТОСЕРВИС</small></span>
+      </a>
+      <span class="footer-note">ООО «Аметист» · Автосервис в Фонтанах</span>
+      <a class="vk-link" href="https://vk.ru/ametist_avto" target="_blank" rel="noreferrer">Мы во ВКонтакте <span>↗</span></a>
+      <span class="copyright">© <span id="current-year">2026</span> Аметист</span>
+    </footer>
+  </body>
+</html>
